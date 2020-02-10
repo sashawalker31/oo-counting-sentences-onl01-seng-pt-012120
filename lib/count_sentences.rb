@@ -6,6 +6,7 @@ class String
     sentence = "Hi, my name is Sophie"
     if sentence.end_with?(".")
       puts true 
+    end
   end
 
   def question?
