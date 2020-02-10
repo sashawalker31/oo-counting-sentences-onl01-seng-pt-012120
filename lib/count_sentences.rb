@@ -3,7 +3,9 @@ require 'pry'
 class String
 
   def sentence?
-    "Hi, my name is Sophie".end_with?(".")
+    sentence = "Hi, my name is Sophie"
+    if sentence.end_with?(".")
+      puts true 
   end
 
   def question?
